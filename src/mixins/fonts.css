@@ -1,0 +1,7 @@
+@value title_font from '../variables/fonts.css';
+
+@define-mixin title {
+  font-family: title_font;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
