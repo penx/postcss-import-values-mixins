@@ -1,8 +1,6 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
-
 const rootPath = path.join(__dirname, '.');
-
 
 module.exports = {
   entry: {
@@ -30,7 +28,6 @@ module.exports = {
               }
           ]
         })
-
       }
     ]
   },
